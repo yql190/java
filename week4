@@ -54,3 +54,23 @@ public class Address {
 	{
 		System.out.println("地址信息为："+this.country+this.province+"省"+this.city+"市"+this.street+"  邮政编码:"+this.postCode);
 	}
+	
+	package test;
+ 
+ 
+ 
+ 
+public class AddressDriven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Address ads1 = new Address("中国","湖北","武汉","阳光大道","0001);
+		ads1.displayInfo();
+		ads1.setCity("湖南");
+		ads1.setProvince("长沙");
+		ads1.setPostCode("1210");
+		ads1.displayInfo();
+
+	}
+
+}
